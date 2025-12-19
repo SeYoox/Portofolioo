@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Daffa Rasendriya</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <div class="logo">
+        <div class="logo-mark">
+          <img src="profile.jpg" alt="Foto Profil" class="profile-img">
+        </div>
+        <div class="logo-text">
+          <span class="logo-title">Daffa Rasendriya A.</span>
+          <span class="logo-subtitle">Mahasiswa Farmasi</span>
+        </div>
+      </div>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#hero">Beranda</a>
+        <a href="#about">Biodata</a>
+        <a href="#education">Edukasi</a>
+        <a href="#projects">Project</a>
+        <a href="#achievements">Pencapaian</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO / BERANDA -->
+  <section id="hero" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <p class="hero-kategori">Mahasiswa Farmasi</p>
+        <h1>
+          Halo, saya
+          <span class="highlight">Daffa Rasendriya Alghani</span>
+        </h1>
+        <p class="hero-subtitle">
+          Mahasiswa Program Studi Farmasi yang tertarik pada
+          <!-- <strong>farmakologi klinik</strong>, <strong>riset obat</strong>, dan -->
+          <strong>pengembangan edukasi kesehatan</strong>.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn primary-btn">Lihat Project</a>
+          <a href="#contact" class="btn secondary-btn">Hubungi Saya</a>
+        </div>
+
+        <div class="hero-meta">
+          <div>
+            <span class="meta-label">Universitas</span>
+            <span class="meta-value">Wahid Hasyim Semarang</span>
+          </div>
+          <div>
+            <span class="meta-label">Fokus</span>
+            <span class="meta-value">Belajar / Riset</span>
+          </div>
+          <div>
+            <span class="meta-label">Lokasi</span>
+            <span class="meta-value">Jepara, Jawa Tengah</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="hero-photo">
+          <!-- Ganti dengan foto kamu (rasio 1:1 ideal) -->
+          <div class="photo-placeholder">
+            <img src="profile.jpg" alt="Foto Profil" class="hero-photo">
+          </div>
+        </div>
+        <div class="hero-card-body">
+          <h2>Daffa Rasendriya Alghani</h2>
+          <p>Mahasiswa Farmasi Semester 1</p>
+          <ul class="hero-tags">
+            <li>Clinical Pharmacy</li>
+            <li>Research</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BIODATA / ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Biodata</h2>
+        <p>Profil singkat dan informasi dasar tentang saya.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card">
+          <h3>Data Pribadi</h3>
+          <dl class="info-list">
+            <div>
+              <dt>Nama</dt>
+              <dd>Daffa Rasendriya Alghani</dd>
+            </div>
+            <div>
+              <dt>Tempat, Tanggal Lahir</dt>
+              <dd>Jepara, 24 Maret 2007</dd>
+            </div>
+            <div>
+              <dt>Alamat</dt>
+              <dd>Jepara</dd>
+            </div>
+            <div>
+              <dt>Email</dt>
+              <dd>mail.daffarasendriya@gmail.com</dd>
+            </div>
+            <div>
+              <dt>Telepon</dt>
+              <dd>+62</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="about-card">
+          <h3>Minat & Fokus</h3>
+          <p>
+            Saya memiliki ketertarikan awal pada bidang ilmu kesehatan secara umum,
+            khususnya <strong>bagaimana obat dapat bekerja di dalam tubuh </strong>
+            dan <strong>bagaimana obat digunakan dengan aman serta efektif</strong>.
+          </p>
+          <ul class="pill-list">
+            <li>Riset & Publikasi</li>
+            <li>Edukasi Kesehatan</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUKASI -->
+  <section id="education" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <h2>Riwayat Edukasi</h2>
+        <p>Pendidikan formal dan pelatihan yang saya ikuti.</p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>S1 Farmasi – Universitas Wahid Hasyim</h3>
+            <span class="timeline-meta">[2025 – Sekarang]</span>
+            <p>
+              Mahasiswa program studi Farmasi
+            </p>
+          </div>
+        </div>
+<!--
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Pelatihan / Sertifikasi</h3>
+            <span class="timeline-meta">[Tahun]</span>
+            <p>
+              Contoh: Pelatihan Konseling Obat Dasar, Workshop Penulisan Karya
+              Tulis Ilmiah, atau pelatihan lain yang relevan dengan farmasi.
+            </p>
+          </div>
+        </div>
+-->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Pendidikan Sebelumnya</h3>
+            <span class="timeline-meta">[2022 – 2025]</span>
+            <p>
+              Contoh: SMA Kurikulum Merdeka di SMA Negeri 1 Nalumsari dengan ketertarikan awal pada
+              biologi, kimia, dan fisika yang mengarahkan saya ke dunia farmasi.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECT -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Project</h2>
+        <p>Beberapa project dan aktivitas yang pernah saya kerjakan.</p>
+      </div>
+
+      <div class="card-grid">
+        <!-- PROJECT 1 -->
+        <article class="card">
+          <div class="card-badge">Riset</div>
+          <h3>Anatomi Fisiologi Patofisiologi Depresi</h3>
+          <p>
+            Riset Sederhana tentang Patofisiologi Depresi
+            pada manusia
+          </p>
+          <ul class="tag-list">
+            <li>Makalah</li>
+            <li>Edukasi Pasien</li>
+          </ul>
+          <div class="card-footer">
+            <a href="https://drive.google.com/file/d/10tYh0k_SL5ivvadropaV60YlYWa2hSGb/view?usp=sharing" target="_blank" class="link">
+              Lihat di GDrive
+            </a>
+          </div>
+        </article>
+        
+        <!--
+        <article class="card">
+          <div class="card-badge">Riset</div>
+          <h3>Studi Penggunaan Antibiotik Rasional</h3>
+          <p>
+            Project tugas kuliah yang menganalisis pola penggunaan antibiotik
+            di sebuah fasilitas kesehatan dan kesesuaiannya dengan guideline.
+          </p>
+          <ul class="tag-list">
+            <li>Evidence-based</li>
+            <li>Antibiotik</li>
+            <li>Data Analisis</li>
+          </ul>
+          <div class="card-footer">
+            <a href="#" class="link">Ringkasan / Poster</a>
+          </div>
+        </article>
+        
+       
+        <article class="card">
+          <div class="card-badge">Edukasi</div>
+          <h3>Konten Edukasi Obat di Media Sosial</h3>
+          <p>
+            Pembuatan konten infografis mengenai penggunaan obat yang benar,
+            efek samping, dan tips membaca label obat untuk masyarakat umum.
+          </p>
+          <ul class="tag-list">
+            <li>Grafis</li>
+            <li>Komunikasi</li>
+            <li>Health Literacy</li>
+          </ul>
+          <div class="card-footer">
+            <a href="#" class="link">Portfolio Konten</a>
+          </div>
+        </article>
+        -->
+      </div>
+    </div>
+  </section>
+  
+  <!-- PENCAPAIAN -->
+  <section id="achievements" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <h2>Pencapaian</h2>
+        <p>Penghargaan dan pencapaian akademik maupun non-akademik.</p>
+      </div>
+<!--
+      <div class="achievements-grid">
+        <div class="achievement-card">
+          <h3>Juara 2 Lomba Karya Tulis Ilmiah Farmasi</h3>
+          <p class="achievement-meta">[Nama Event] – [Tahun]</p>
+          <p>
+            Menulis karya tulis ilmiah tentang penggunaan obat yang rasional
+            di layanan kesehatan primer.
+          </p>
+        </div>
+      
+
+        <div class="achievement-card">
+          <h3>Asisten Praktikum Farmakologi</h3>
+          <p class="achievement-meta">[Nama Laboratorium] – [Tahun]</p>
+          <p>
+            Membantu pelaksanaan praktikum, menjelaskan materi, dan
+            mendampingi mahasiswa lain dalam memahami konsep farmakologi.
+          </p>
+        </div>
+-->
+        <div class="achievement-card">
+          <h3>IPK Sementara</h3>
+          <p class="achievement-meta">[3.xx]</p>
+          <p>
+            Menjaga performa akademik yang konsisten sambil aktif di organisasi
+            dan kegiatan kemahasiswaan.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KONTAK -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Kontak</h2>
+        <p>Silakan hubungi saya untuk kolaborasi, project, atau diskusi.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Upload File tambahkan pada Form enctype="multipart/form-data" -->
+        <form class="contact-form" action="https://formspree.io/f/mjkqblwe" method="POST">
+          <!--
+            NOTE:
+            - Untuk produksi, kamu bisa pakai Formspree, Getform, dll.
+            - Contoh: action="https://formspree.io/f/xxxxxxx" method="POST"
+          -->
+          
+          <div class="form-group">
+            <label for="name">Nama Lengkap</label>
+            <input type="text" id="name" name="name" placeholder="Masukkan nama kamu" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Alamat Email</label>
+            <input type="email" id="email" name="_replyto" placeholder="nama@contoh.com" required />
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subjek</label>
+            <input type="text" id="subject" name="subject" placeholder="Contoh: Ajakan Kolaborasi Project" />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Pesan</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tulis pesan kamu di sini" required></textarea>
+          </div>
+          <!--
+         <div class="form-group">
+           <label for="file">Upload File (Opsional)</label>
+           <input type="file" id="file" name="attachment" accept=".pdf,.jpg,.png,.doc,.docx,.zip" />
+         </div>
+-->
+          <button type="submit" class="btn primary-btn full-width">
+            Kirim Pesan
+          </button>
+        </form>
+
+        <div class="contact-info">
+          <h3>Info Kontak</h3>
+          <p>
+            Saya terbuka untuk diskusi seputar farmasi, project edukasi,
+            riset, maupun kesempatan magang.
+          </p>
+
+          <ul class="info-list">
+            <div>
+              <dt>Email</dt>
+              <dd>[email@contoh.com]</dd>
+            </div>
+            <div>
+              <dt>Telepon / WhatsApp</dt>
+              <dd>[+62 xxx-xxxx-xxxx]</dd>
+            </div>
+            <div>
+              <dt>GitHub</dt>
+              <dd><a href="https://github.com/username" target="_blank">github.com/username</a></dd>
+            </div>
+            <div>
+              <dt>LinkedIn</dt>
+              <dd><a href="https://linkedin.com/in/username" target="_blank">linkedin.com/in/username</a></dd>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Daffa Rasendriya – Mahasiswa Farmasi.</p>
+      <p class="footer-sub">
+        Dibuat dengan HTML, CSS, dan JavaScript. Di-host di GitHub Pages.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
